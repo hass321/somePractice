@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    margin-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;  
+    background: #eee;
+}
+.axis1{
+    display: block;
+    text-align: right;
+    font-size: 25px;
+}
+.axis2{
+    display: block;
+    text-align: left;
+    font-size: 25px;
+}
+h1{
+    text-align: center;
+    letter-spacing: 4px;
+}
+.container{
+    background: #fff;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-flow: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+.container2{
+    background: #fff;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    /* flex-flow: column; */
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.box{
+    height: 100px;
+    flex: 0 1 100px;
+}
+.one{
+    background: red;
+}
+.two{
+    background: green;
+}
+.three{
+    background: blue;
+}
+.box2{
+    width: 100px;
+    flex: 0 1 100px;
+}

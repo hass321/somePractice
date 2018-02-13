@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    background: #fff;
+}
+.box{
+    height: 100px;
+    flex-grow: 1;
+}
+.one{
+    background: red;
+    flex-basis: 100%;
+}
+.two{
+    background: green;
+    width: 100%;
+}
+.three{
+    background: blue;
+    width: 100%;
+}

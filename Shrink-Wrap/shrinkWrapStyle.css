@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #eee;
+}
+.container{
+    display: flex;
+    background: white;
+    flex-wrap: wrap;
+}
+.box{
+    min-width: 200px;
+    height: 100px;
+    flex-grow: 1;
+}
+.one{
+    background: red;
+    /* flex-shrink: 1; */
+}
+.two{
+    background: green;
+    /* flex-shrink: 1; */
+}
+.three{
+    background: blue;
+    /* flex-shrink: 1; */
+}
